@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   // pages
-  final List<Widget> _pages = [
+  final List<Widget> _pages = const [
     ShopPage(),
     CartPage(),
   ];

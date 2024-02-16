@@ -1,15 +1,16 @@
 name: flutter_application_6
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.5 <4.0.0'
+  sdk: ">=3.2.5 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   google_nav_bar: ^5.0.6
+  provider:
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - lib/images/
